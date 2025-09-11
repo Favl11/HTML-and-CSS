@@ -1,5 +1,36 @@
+body{
+    background-image: url(images/dim2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .title{
     font-family:Arial, Helvetica, sans-serif;
     color: #00e632;
-    
-}   
+    text-align: center;
+} 
+
+.img-left{
+    float: left;
+    margin-right: 30px;
+}
+
+.img-right{
+    float: right;
+    margin-left: 30px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.link{
+    text-decoration: none;
+    color: #00e632;
+}
+
+.abbr{
+    text-decoration: none;
+}
