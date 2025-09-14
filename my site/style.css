@@ -1,7 +1,30 @@
+.toolbar {
+  background-color: #403939;
+  text-align: center;
+}
+
+.toolbar a {
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  padding: 14px;
+  text-decoration: none;
+}
+
 body {
+  margin: 0px;
+  padding: 0px;
   background-image: url(images/dim2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.footer {
+  color: #000000;
+  background-color: #ffffff;
+  width: auto;
+  height: 80px;
 }
 
 .title {
