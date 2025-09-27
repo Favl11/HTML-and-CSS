@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jacques+Francois&display=swap");
+
+body {
+  background-color: #121212;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #1c6b5e;
+  height: 55px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 11px;
+}
+
+.logo {
+  width: 50px;
+  margin: 8px auto 8px 52px;
+}
+
+nav {
+  position: absolute;
+}
+
+ul.nav_pan {
+  list-style: none;
+}
+
+.menu {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.link_nav {
+  display: block;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+}
+
+/*-----------------------*/
+
+.text {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.text_gubami {
+  font-weight: 400;
+  color: #1c6b5e;
+}
+
+.dop {
+  font-weight: 500;
+}
+
+.G {
+  font-family: "Jacques Francois", serif;
+}
+
+.con_logo2{
+  display: flex;
+  justify-content: center;
+}
+
+.logo2 {
+  margin: 42px 0 42px 0;
+}
+
+.block {
+  display: flex;
+  gap: 41px;
+  justify-content: center;
+}
+
+.column_left {
+  display: flex;
+  flex-direction: column;
+  gap: 41px; /* Отступ между левой и правой колонками */
+}
+
+.one {
+  background-color: #fff;
+  width: 650px;
+  height: 134px;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.content.two {
+  width: 650px;
+  height: 330px;
+  background-image: url("./images/image2.png");
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: -1;
+}
+
+.content.two::before {
+  content: "";
+  inset: 0;
+  background-color: rgba(28, 107, 94, 0.25);
+  border-radius: 25px;
+  position: absolute;
+  z-index: -2;
+}
+
+.content.three {
+  width: 375px;
+  height: 506px;
+  background-image: url("./images/image3.png");
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 25px;
+  z-index: -1;
+}
+
+.content.three::before {
+  content: "";
+  inset: 0;
+  background-color: rgba(28, 107, 94, 0.25);
+  border-radius: 25px;
+  position: absolute;
+  z-index: -2;
+}
+
+.block_text {
+  margin: 45px 379px 63px 379px;
+  text-align: center;
+}
+
+.block_text .text {
+  margin: 0;
+  color: #fff;
+}
+
+.block_text .ukazatel {
+  margin-top: 25px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main_content {
+  height: 850px;
+  width: 1066px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+footer {
+  margin-top: 100px;
+  display: block;
+  justify-content: center;
+}
+
+.footer {
+  height: 500px;
+  width: auto;
+  background-color: #0a0a0a;
+  border-radius: 25px 25px 0 0;
+}
